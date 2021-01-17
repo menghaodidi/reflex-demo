@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class Server {
     public static void main(String[] args) {
         try {
+            
+            //
             ServerSocket server = new ServerSocket(9999);
             Socket socket = server.accept();
             //打印客户端地址
